@@ -1,0 +1,743 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0373A58E5D2B615B52EF60F1 /* DomainPersistenceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E71873C6519F6510F1C68F43 /* DomainPersistenceTests.swift */; };
+		05F53DAB2F0D6FFCFCFC6291 /* HappyHourButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F79AE5B026E18B453F3AEBE /* HappyHourButtonStyles.swift */; };
+		0D922696CD965AA273557A46 /* ActivityColorToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E69C2E6FED713170D7FA4E /* ActivityColorToken.swift */; };
+		0EBCBB84F98695C719499497 /* PlanSnapshots.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EC541CF6700B6F94CFE246 /* PlanSnapshots.swift */; };
+		0F613F82A7CAA16CF7D1C70F /* BeerMugShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5502CB9ED3127A16684E282 /* BeerMugShape.swift */; };
+		171812ADC292F3226C574601 /* ScheduleResolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B6EDA51ADB4CBE640FE9CE1 /* ScheduleResolver.swift */; };
+		1925A4D3E9F6D19E6EBFD07A /* Clock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E8721C1C7DE5AC2B5840933 /* Clock.swift */; };
+		1A37F9D5D26CD2FC3BD5C211 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 751EB55CA80A8401B4046246 /* EventKitUI.framework */; };
+		1CBD1955B7893B044A1970D9 /* HappyHourApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A0B99D20C90600CDD992C6 /* HappyHourApp.swift */; };
+		219FFE015F901BD6047FD10C /* ActivityBeerMugView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0784EF24714659D2D877D432 /* ActivityBeerMugView.swift */; };
+		2320B94CCF2496D637F8D222 /* Weekday.swift in Sources */ = {isa = PBXBuildFile; fileRef = 177926AAEE4BC95DD416437F /* Weekday.swift */; };
+		35341FE1665F94A19F677472 /* NotificationCenterClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E451F340304AA7AF59B2D5EE /* NotificationCenterClient.swift */; };
+		431BD555CDD28BC3714821B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F6CA76FB2494EBF5681BF05 /* Foundation.framework */; };
+		49365A6C25B1777880F0B8D5 /* CalendarEventEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08F688AD0B9323119B1B6F02 /* CalendarEventEditView.swift */; };
+		4BCE698CB930217F5698460F /* CalendarEventBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6F431888FABAA2D5343970 /* CalendarEventBuilder.swift */; };
+		537EC72686AD3354BC4E5679 /* SystemServicesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027A91E939EA6D37CBEB63CE /* SystemServicesTests.swift */; };
+		56CBA241C9092EC81EAC4A4E /* Weekday+Presentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8773CCB43B466568D87995A0 /* Weekday+Presentation.swift */; };
+		597BB4FB923C904186ADF37B /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58897AE7E889FF87CDCA844C /* RootView.swift */; };
+		59A2DE6A7BFA1FEF3BA41F5F /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D85C0BAFFF1D3CB048B18AC /* SettingsView.swift */; };
+		5F27F217513CDCE2307362D0 /* PlanValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87E9CD0DAE7D15F1AD4D049D /* PlanValidation.swift */; };
+		669F505A7EB75B88028C6B92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFFDA92B903518C11AD7BE7C /* Assets.xcassets */; };
+		6B79D6644685E1BB58144F5F /* InteractiveDismissGuard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DF98FA8057B528B6D29DEA2 /* InteractiveDismissGuard.swift */; };
+		70EBA278412DBF971313ACAD /* CalendarProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C984292A11E84D3C1BE8E55 /* CalendarProvider.swift */; };
+		77989C3D9872326F4812A604 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF02573FA4DCCFB0AC74F4A1 /* AppModel.swift */; };
+		789296DC356BE9E096AE7262 /* NotificationScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53A47BC739D96D669169948E /* NotificationScheduler.swift */; };
+		7C3FCEAC2D8FA9BDDE852049 /* DayEditorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DCD36B24ABBB377677C7C3 /* DayEditorModel.swift */; };
+		8E3373F163198BFC8E783F89 /* WeekPagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16E1FDAD1EF29EF847B9C915 /* WeekPagerView.swift */; };
+		95DCA4AD9EB2E51A38BE300E /* DayEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0B7EEA44605F7407C335B6 /* DayEditorView.swift */; };
+		AB80FCCC7FFF3C6E6CC8E85F /* PlanDrafts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A2AB4CB62BE060E28D1E52D /* PlanDrafts.swift */; };
+		AB8636715577CE4AA46E2E21 /* HappyHourUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EA28B2CB6D5EB05E56CF0F /* HappyHourUITests.swift */; };
+		AD83B1823CF4E3D72D143A04 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B206A46390B3A93EC0C5F0CB /* OnboardingView.swift */; };
+		B079B7C753A022F86599CB4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F6CA76FB2494EBF5681BF05 /* Foundation.framework */; };
+		B0950EE7C19660CA51854E00 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F6CA76FB2494EBF5681BF05 /* Foundation.framework */; };
+		B1C5E3C8222F38970443D3C1 /* PlanModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90575F3C43F8BD973CF99CE /* PlanModels.swift */; };
+		B2E4AFCA02996A65CFE9AF53 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5949465682EE9581832B7E6 /* EventKit.framework */; };
+		C81D7F61513BAD7B1F86632A /* LocalNotificationDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095C476D473D766F5ED3B7F8 /* LocalNotificationDescriptor.swift */; };
+		CA776D87A4696BD2FF09F34E /* ActivityDetailSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464899843412D17031830B2B /* ActivityDetailSheet.swift */; };
+		E06140B11159CA537C604904 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 976BF87260C8B29CAE0D104A /* UserNotifications.framework */; };
+		E2A29D0984B181C661B197E7 /* PlanRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD91DAA11B9EBE530896951 /* PlanRepository.swift */; };
+		EB1CE8496D444DDBA08D7D5E /* HappyHourSchema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7841C2C5C76195C2505E671C /* HappyHourSchema.swift */; };
+		ED8138CF287A3E70F57A8694 /* HappyHourTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99C9F6E821F01434C6964C1 /* HappyHourTheme.swift */; };
+		EF5553A189540C7EC039BC4D /* AppNotificationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A416C03B77CB61C65146A15 /* AppNotificationDelegate.swift */; };
+		F48A18083D09802215E66160 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 87F94124CBD1AC40306B2421 /* PrivacyInfo.xcprivacy */; };
+		F66789ED60E489AA6F28296E /* WeekdayStrip.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD841494F366047068B205C8 /* WeekdayStrip.swift */; };
+		FF64732B42F79ECCB5C67B92 /* HappyHourPersistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B404FA3707C48653AEFBC201 /* HappyHourPersistence.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2046A7178FB71E3DD7AE9434 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0BE48470BACE207A6859A4C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4577FA9F7ED7FF6EE639FCA;
+			remoteInfo = HappyHour;
+		};
+		5D7117034FE2D4BF24F190BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0BE48470BACE207A6859A4C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4577FA9F7ED7FF6EE639FCA;
+			remoteInfo = HappyHour;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		027A91E939EA6D37CBEB63CE /* SystemServicesTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SystemServicesTests.swift; sourceTree = "<group>"; };
+		0784EF24714659D2D877D432 /* ActivityBeerMugView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActivityBeerMugView.swift; path = Features/Main/ActivityBeerMugView.swift; sourceTree = "<group>"; };
+		08F688AD0B9323119B1B6F02 /* CalendarEventEditView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CalendarEventEditView.swift; path = Services/Calendar/CalendarEventEditView.swift; sourceTree = "<group>"; };
+		09419CA55CF3AD5129C367C3 /* HappyHourUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HappyHourUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		095C476D473D766F5ED3B7F8 /* LocalNotificationDescriptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocalNotificationDescriptor.swift; path = Services/Notifications/LocalNotificationDescriptor.swift; sourceTree = "<group>"; };
+		14EA28B2CB6D5EB05E56CF0F /* HappyHourUITests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HappyHourUITests.swift; sourceTree = "<group>"; };
+		16E1FDAD1EF29EF847B9C915 /* WeekPagerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WeekPagerView.swift; path = Features/Main/WeekPagerView.swift; sourceTree = "<group>"; };
+		177926AAEE4BC95DD416437F /* Weekday.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Weekday.swift; path = Domain/Weekday.swift; sourceTree = "<group>"; };
+		1A2AB4CB62BE060E28D1E52D /* PlanDrafts.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PlanDrafts.swift; path = Domain/PlanDrafts.swift; sourceTree = "<group>"; };
+		1D85C0BAFFF1D3CB048B18AC /* SettingsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SettingsView.swift; path = Features/Settings/SettingsView.swift; sourceTree = "<group>"; };
+		1DF98FA8057B528B6D29DEA2 /* InteractiveDismissGuard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InteractiveDismissGuard.swift; path = Features/Editor/InteractiveDismissGuard.swift; sourceTree = "<group>"; };
+		1E0B7EEA44605F7407C335B6 /* DayEditorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DayEditorView.swift; path = Features/Editor/DayEditorView.swift; sourceTree = "<group>"; };
+		3A416C03B77CB61C65146A15 /* AppNotificationDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppNotificationDelegate.swift; path = Services/Notifications/AppNotificationDelegate.swift; sourceTree = "<group>"; };
+		3B6EDA51ADB4CBE640FE9CE1 /* ScheduleResolver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ScheduleResolver.swift; path = Services/Schedule/ScheduleResolver.swift; sourceTree = "<group>"; };
+		464899843412D17031830B2B /* ActivityDetailSheet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActivityDetailSheet.swift; path = Features/Main/ActivityDetailSheet.swift; sourceTree = "<group>"; };
+		4AD91DAA11B9EBE530896951 /* PlanRepository.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PlanRepository.swift; path = Services/Persistence/PlanRepository.swift; sourceTree = "<group>"; };
+		4C984292A11E84D3C1BE8E55 /* CalendarProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CalendarProvider.swift; path = Services/Schedule/CalendarProvider.swift; sourceTree = "<group>"; };
+		4F43D466E72E5BD3886E26C3 /* HappyHour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HappyHour.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52E69C2E6FED713170D7FA4E /* ActivityColorToken.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ActivityColorToken.swift; path = Domain/ActivityColorToken.swift; sourceTree = "<group>"; };
+		53A0B99D20C90600CDD992C6 /* HappyHourApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HappyHourApp.swift; path = App/HappyHourApp.swift; sourceTree = "<group>"; };
+		53A47BC739D96D669169948E /* NotificationScheduler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NotificationScheduler.swift; path = Services/Notifications/NotificationScheduler.swift; sourceTree = "<group>"; };
+		58897AE7E889FF87CDCA844C /* RootView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RootView.swift; path = App/RootView.swift; sourceTree = "<group>"; };
+		63EC541CF6700B6F94CFE246 /* PlanSnapshots.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PlanSnapshots.swift; path = Domain/PlanSnapshots.swift; sourceTree = "<group>"; };
+		6E8721C1C7DE5AC2B5840933 /* Clock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Clock.swift; path = Services/Schedule/Clock.swift; sourceTree = "<group>"; };
+		6F6CA76FB2494EBF5681BF05 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		751EB55CA80A8401B4046246 /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+		7841C2C5C76195C2505E671C /* HappyHourSchema.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HappyHourSchema.swift; path = Domain/HappyHourSchema.swift; sourceTree = "<group>"; };
+		8773CCB43B466568D87995A0 /* Weekday+Presentation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Weekday+Presentation.swift"; path = "DesignSystem/Weekday+Presentation.swift"; sourceTree = "<group>"; };
+		87E9CD0DAE7D15F1AD4D049D /* PlanValidation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PlanValidation.swift; path = Domain/PlanValidation.swift; sourceTree = "<group>"; };
+		87F94124CBD1AC40306B2421 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = Resources/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		976BF87260C8B29CAE0D104A /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		9F79AE5B026E18B453F3AEBE /* HappyHourButtonStyles.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HappyHourButtonStyles.swift; path = DesignSystem/HappyHourButtonStyles.swift; sourceTree = "<group>"; };
+		AD841494F366047068B205C8 /* WeekdayStrip.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WeekdayStrip.swift; path = Features/Main/WeekdayStrip.swift; sourceTree = "<group>"; };
+		AF02573FA4DCCFB0AC74F4A1 /* AppModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AppModel.swift; path = App/AppModel.swift; sourceTree = "<group>"; };
+		B206A46390B3A93EC0C5F0CB /* OnboardingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OnboardingView.swift; path = Features/Onboarding/OnboardingView.swift; sourceTree = "<group>"; };
+		B27455157C761B117B83D60D /* HappyHourTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HappyHourTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B404FA3707C48653AEFBC201 /* HappyHourPersistence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HappyHourPersistence.swift; path = Services/Persistence/HappyHourPersistence.swift; sourceTree = "<group>"; };
+		CFFDA92B903518C11AD7BE7C /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = Resources/Assets.xcassets; sourceTree = "<group>"; };
+		D5502CB9ED3127A16684E282 /* BeerMugShape.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BeerMugShape.swift; path = DesignSystem/BeerMugShape.swift; sourceTree = "<group>"; };
+		E3DCD36B24ABBB377677C7C3 /* DayEditorModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DayEditorModel.swift; path = Features/Editor/DayEditorModel.swift; sourceTree = "<group>"; };
+		E451F340304AA7AF59B2D5EE /* NotificationCenterClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NotificationCenterClient.swift; path = Services/Notifications/NotificationCenterClient.swift; sourceTree = "<group>"; };
+		E71873C6519F6510F1C68F43 /* DomainPersistenceTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DomainPersistenceTests.swift; sourceTree = "<group>"; };
+		E90575F3C43F8BD973CF99CE /* PlanModels.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PlanModels.swift; path = Domain/PlanModels.swift; sourceTree = "<group>"; };
+		E99C9F6E821F01434C6964C1 /* HappyHourTheme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HappyHourTheme.swift; path = DesignSystem/HappyHourTheme.swift; sourceTree = "<group>"; };
+		EC6F431888FABAA2D5343970 /* CalendarEventBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CalendarEventBuilder.swift; path = Services/Calendar/CalendarEventBuilder.swift; sourceTree = "<group>"; };
+		F5949465682EE9581832B7E6 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C493D95A3760CF7F2BD6BBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0950EE7C19660CA51854E00 /* Foundation.framework in Frameworks */,
+				B2E4AFCA02996A65CFE9AF53 /* EventKit.framework in Frameworks */,
+				1A37F9D5D26CD2FC3BD5C211 /* EventKitUI.framework in Frameworks */,
+				E06140B11159CA537C604904 /* UserNotifications.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10C18C8D5483BE71B2A8DCD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B079B7C753A022F86599CB4B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5204ADFC5032D71CC35611B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				431BD555CDD28BC3714821B0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04AEF40CEA919F055D95CA0D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2369C314CE7966B8181F4731 /* iOS */,
+				F5949465682EE9581832B7E6 /* EventKit.framework */,
+				751EB55CA80A8401B4046246 /* EventKitUI.framework */,
+				976BF87260C8B29CAE0D104A /* UserNotifications.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2369C314CE7966B8181F4731 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6F6CA76FB2494EBF5681BF05 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		43F0CC1B6E27B26CBF055B39 /* HappyHour */ = {
+			isa = PBXGroup;
+			children = (
+				AF02573FA4DCCFB0AC74F4A1 /* AppModel.swift */,
+				53A0B99D20C90600CDD992C6 /* HappyHourApp.swift */,
+				58897AE7E889FF87CDCA844C /* RootView.swift */,
+				9F79AE5B026E18B453F3AEBE /* HappyHourButtonStyles.swift */,
+				E99C9F6E821F01434C6964C1 /* HappyHourTheme.swift */,
+				D5502CB9ED3127A16684E282 /* BeerMugShape.swift */,
+				8773CCB43B466568D87995A0 /* Weekday+Presentation.swift */,
+				52E69C2E6FED713170D7FA4E /* ActivityColorToken.swift */,
+				7841C2C5C76195C2505E671C /* HappyHourSchema.swift */,
+				1A2AB4CB62BE060E28D1E52D /* PlanDrafts.swift */,
+				E90575F3C43F8BD973CF99CE /* PlanModels.swift */,
+				63EC541CF6700B6F94CFE246 /* PlanSnapshots.swift */,
+				87E9CD0DAE7D15F1AD4D049D /* PlanValidation.swift */,
+				177926AAEE4BC95DD416437F /* Weekday.swift */,
+				E3DCD36B24ABBB377677C7C3 /* DayEditorModel.swift */,
+				1E0B7EEA44605F7407C335B6 /* DayEditorView.swift */,
+				1DF98FA8057B528B6D29DEA2 /* InteractiveDismissGuard.swift */,
+				464899843412D17031830B2B /* ActivityDetailSheet.swift */,
+				0784EF24714659D2D877D432 /* ActivityBeerMugView.swift */,
+				16E1FDAD1EF29EF847B9C915 /* WeekPagerView.swift */,
+				AD841494F366047068B205C8 /* WeekdayStrip.swift */,
+				B206A46390B3A93EC0C5F0CB /* OnboardingView.swift */,
+				1D85C0BAFFF1D3CB048B18AC /* SettingsView.swift */,
+				EC6F431888FABAA2D5343970 /* CalendarEventBuilder.swift */,
+				08F688AD0B9323119B1B6F02 /* CalendarEventEditView.swift */,
+				3A416C03B77CB61C65146A15 /* AppNotificationDelegate.swift */,
+				095C476D473D766F5ED3B7F8 /* LocalNotificationDescriptor.swift */,
+				E451F340304AA7AF59B2D5EE /* NotificationCenterClient.swift */,
+				53A47BC739D96D669169948E /* NotificationScheduler.swift */,
+				B404FA3707C48653AEFBC201 /* HappyHourPersistence.swift */,
+				4AD91DAA11B9EBE530896951 /* PlanRepository.swift */,
+				4C984292A11E84D3C1BE8E55 /* CalendarProvider.swift */,
+				6E8721C1C7DE5AC2B5840933 /* Clock.swift */,
+				3B6EDA51ADB4CBE640FE9CE1 /* ScheduleResolver.swift */,
+				CFFDA92B903518C11AD7BE7C /* Assets.xcassets */,
+				87F94124CBD1AC40306B2421 /* PrivacyInfo.xcprivacy */,
+			);
+			name = HappyHour;
+			path = HappyHour;
+			sourceTree = "<group>";
+		};
+		4EAB2BB16FA3CD1C96ED506F /* HappyHourTests */ = {
+			isa = PBXGroup;
+			children = (
+				E71873C6519F6510F1C68F43 /* DomainPersistenceTests.swift */,
+				027A91E939EA6D37CBEB63CE /* SystemServicesTests.swift */,
+			);
+			name = HappyHourTests;
+			path = HappyHourTests;
+			sourceTree = "<group>";
+		};
+		8665C01001E61D84BA8E49D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F43D466E72E5BD3886E26C3 /* HappyHour.app */,
+				B27455157C761B117B83D60D /* HappyHourTests.xctest */,
+				09419CA55CF3AD5129C367C3 /* HappyHourUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B966E307F9BC1114FED8855C /* HappyHourUITests */ = {
+			isa = PBXGroup;
+			children = (
+				14EA28B2CB6D5EB05E56CF0F /* HappyHourUITests.swift */,
+			);
+			name = HappyHourUITests;
+			path = HappyHourUITests;
+			sourceTree = "<group>";
+		};
+		CA5BED2BA3CFECE7EC3736C5 = {
+			isa = PBXGroup;
+			children = (
+				8665C01001E61D84BA8E49D5 /* Products */,
+				04AEF40CEA919F055D95CA0D /* Frameworks */,
+				43F0CC1B6E27B26CBF055B39 /* HappyHour */,
+				4EAB2BB16FA3CD1C96ED506F /* HappyHourTests */,
+				B966E307F9BC1114FED8855C /* HappyHourUITests */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4577FA9F7ED7FF6EE639FCA /* HappyHour */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 242B7983FD6F587D100A6A06 /* Build configuration list for PBXNativeTarget "HappyHour" */;
+			buildPhases = (
+				0B5077D5798AD77FD85935B6 /* Sources */,
+				0C493D95A3760CF7F2BD6BBC /* Frameworks */,
+				95D02A305C63B6504069BB97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HappyHour;
+			productName = HappyHour;
+			productReference = 4F43D466E72E5BD3886E26C3 /* HappyHour.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF7F9FBB08655FEA280DC7BB /* HappyHourTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4687FB4A20B554E37F512CAB /* Build configuration list for PBXNativeTarget "HappyHourTests" */;
+			buildPhases = (
+				AE9AC66E46B130B5CDD6FB4B /* Sources */,
+				10C18C8D5483BE71B2A8DCD2 /* Frameworks */,
+				9FC0AAD711AF6A3857360034 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C48BCEDF41EBD602E839B0E5 /* PBXTargetDependency */,
+			);
+			name = HappyHourTests;
+			productName = HappyHourTests;
+			productReference = B27455157C761B117B83D60D /* HappyHourTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E9C26FF2088CF972EFDD46D8 /* HappyHourUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20F921DB77E6AD5107595A50 /* Build configuration list for PBXNativeTarget "HappyHourUITests" */;
+			buildPhases = (
+				BE57F95B0A76EB50EA77C144 /* Sources */,
+				F5204ADFC5032D71CC35611B /* Frameworks */,
+				C8D41A519F22DB06B6603A20 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0BC4CE27CD7592F1F2695976 /* PBXTargetDependency */,
+			);
+			name = HappyHourUITests;
+			productName = HappyHourUITests;
+			productReference = 09419CA55CF3AD5129C367C3 /* HappyHourUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0BE48470BACE207A6859A4C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 2660;
+				LastUpgradeCheck = 2660;
+			};
+			buildConfigurationList = D072FD5D59660EC42AA326E1 /* Build configuration list for PBXProject "HappyHour" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = nb;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				nb,
+				Base,
+			);
+			mainGroup = CA5BED2BA3CFECE7EC3736C5;
+			minimizedProjectReferenceProxies = 0;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 8665C01001E61D84BA8E49D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4577FA9F7ED7FF6EE639FCA /* HappyHour */,
+				DF7F9FBB08655FEA280DC7BB /* HappyHourTests */,
+				E9C26FF2088CF972EFDD46D8 /* HappyHourUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95D02A305C63B6504069BB97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				669F505A7EB75B88028C6B92 /* Assets.xcassets in Resources */,
+				F48A18083D09802215E66160 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FC0AAD711AF6A3857360034 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8D41A519F22DB06B6603A20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B5077D5798AD77FD85935B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77989C3D9872326F4812A604 /* AppModel.swift in Sources */,
+				1CBD1955B7893B044A1970D9 /* HappyHourApp.swift in Sources */,
+				597BB4FB923C904186ADF37B /* RootView.swift in Sources */,
+				05F53DAB2F0D6FFCFCFC6291 /* HappyHourButtonStyles.swift in Sources */,
+				ED8138CF287A3E70F57A8694 /* HappyHourTheme.swift in Sources */,
+				0F613F82A7CAA16CF7D1C70F /* BeerMugShape.swift in Sources */,
+				56CBA241C9092EC81EAC4A4E /* Weekday+Presentation.swift in Sources */,
+				0D922696CD965AA273557A46 /* ActivityColorToken.swift in Sources */,
+				EB1CE8496D444DDBA08D7D5E /* HappyHourSchema.swift in Sources */,
+				AB80FCCC7FFF3C6E6CC8E85F /* PlanDrafts.swift in Sources */,
+				B1C5E3C8222F38970443D3C1 /* PlanModels.swift in Sources */,
+				0EBCBB84F98695C719499497 /* PlanSnapshots.swift in Sources */,
+				5F27F217513CDCE2307362D0 /* PlanValidation.swift in Sources */,
+				2320B94CCF2496D637F8D222 /* Weekday.swift in Sources */,
+				7C3FCEAC2D8FA9BDDE852049 /* DayEditorModel.swift in Sources */,
+				95DCA4AD9EB2E51A38BE300E /* DayEditorView.swift in Sources */,
+				6B79D6644685E1BB58144F5F /* InteractiveDismissGuard.swift in Sources */,
+				CA776D87A4696BD2FF09F34E /* ActivityDetailSheet.swift in Sources */,
+				219FFE015F901BD6047FD10C /* ActivityBeerMugView.swift in Sources */,
+				8E3373F163198BFC8E783F89 /* WeekPagerView.swift in Sources */,
+				F66789ED60E489AA6F28296E /* WeekdayStrip.swift in Sources */,
+				AD83B1823CF4E3D72D143A04 /* OnboardingView.swift in Sources */,
+				59A2DE6A7BFA1FEF3BA41F5F /* SettingsView.swift in Sources */,
+				4BCE698CB930217F5698460F /* CalendarEventBuilder.swift in Sources */,
+				49365A6C25B1777880F0B8D5 /* CalendarEventEditView.swift in Sources */,
+				EF5553A189540C7EC039BC4D /* AppNotificationDelegate.swift in Sources */,
+				C81D7F61513BAD7B1F86632A /* LocalNotificationDescriptor.swift in Sources */,
+				35341FE1665F94A19F677472 /* NotificationCenterClient.swift in Sources */,
+				789296DC356BE9E096AE7262 /* NotificationScheduler.swift in Sources */,
+				FF64732B42F79ECCB5C67B92 /* HappyHourPersistence.swift in Sources */,
+				E2A29D0984B181C661B197E7 /* PlanRepository.swift in Sources */,
+				70EBA278412DBF971313ACAD /* CalendarProvider.swift in Sources */,
+				1925A4D3E9F6D19E6EBFD07A /* Clock.swift in Sources */,
+				171812ADC292F3226C574601 /* ScheduleResolver.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE9AC66E46B130B5CDD6FB4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0373A58E5D2B615B52EF60F1 /* DomainPersistenceTests.swift in Sources */,
+				537EC72686AD3354BC4E5679 /* SystemServicesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE57F95B0A76EB50EA77C144 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB8636715577CE4AA46E2E21 /* HappyHourUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0BC4CE27CD7592F1F2695976 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HappyHour;
+			target = D4577FA9F7ED7FF6EE639FCA /* HappyHour */;
+			targetProxy = 5D7117034FE2D4BF24F190BA /* PBXContainerItemProxy */;
+		};
+		C48BCEDF41EBD602E839B0E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HappyHour;
+			target = D4577FA9F7ED7FF6EE639FCA /* HappyHour */;
+			targetProxy = 2046A7178FB71E3DD7AE9434 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		24CC62C7C4E15068886BB982 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Happy Hour";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrsounds.happyhour;
+				PRODUCT_NAME = HappyHour;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B29D77FA21307D7D0F112F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrsounds.happyhour.uitests;
+				PRODUCT_NAME = HappyHourUITests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+				TEST_TARGET_NAME = HappyHour;
+			};
+			name = Debug;
+		};
+		64DE00B8226378FCD2D33D8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		6A28822E8B3D081A6D6B259D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrsounds.happyhour.tests;
+				PRODUCT_NAME = HappyHourTests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HappyHour.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HappyHour";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9EDC23002AD644E419129BBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrsounds.happyhour.tests;
+				PRODUCT_NAME = HappyHourTests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HappyHour.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HappyHour";
+			};
+			name = Debug;
+		};
+		9F11C2FB09D30D0B1A59BA05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Happy Hour";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrsounds.happyhour;
+				PRODUCT_NAME = HappyHour;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C0FF1DE1627F4E5A42269B32 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrsounds.happyhour.uitests;
+				PRODUCT_NAME = HappyHourUITests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+				TEST_TARGET_NAME = HappyHour;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C9D4281EC36E38A989B68E88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20F921DB77E6AD5107595A50 /* Build configuration list for PBXNativeTarget "HappyHourUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0FF1DE1627F4E5A42269B32 /* Release */,
+				5B29D77FA21307D7D0F112F4 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		242B7983FD6F587D100A6A06 /* Build configuration list for PBXNativeTarget "HappyHour" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24CC62C7C4E15068886BB982 /* Release */,
+				9F11C2FB09D30D0B1A59BA05 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4687FB4A20B554E37F512CAB /* Build configuration list for PBXNativeTarget "HappyHourTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A28822E8B3D081A6D6B259D /* Release */,
+				9EDC23002AD644E419129BBE /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D072FD5D59660EC42AA326E1 /* Build configuration list for PBXProject "HappyHour" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64DE00B8226378FCD2D33D8A /* Debug */,
+				C9D4281EC36E38A989B68E88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0BE48470BACE207A6859A4C8 /* Project object */;
+}
