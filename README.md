@@ -64,6 +64,14 @@ The first version should feel calm, personal, and intentionally simple.
 - No account or social features in version one.
 - No guilt mechanics, streaks, or pressure if the user misses or moves a Happy Hour.
 
+## Locked decisions for version one
+
+- **Platform and UI:** iPhone app built with SwiftUI.
+- **Data:** the weekly plan and activities are stored locally on the device. There are no accounts, sign-in, or cloud sync in version one.
+- **Notifications:** onboarding asks for notification permission; the app sends a reminder when the day’s Happy Hour begins.
+- **Calendar:** calendar integration is deliberately postponed until after the core experience is working.
+- **Scope:** one Happy Hour per weekday, with a default duration of one hour and an option to choose a longer interval.
+
 ## Product principles
 
 - **Joy before productivity:** the app should support a better life, not add another obligation.
